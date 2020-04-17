@@ -1,0 +1,63 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: 'Heebo', sans-serif;
+}
+
+.day-back {
+  background: linear-gradient(0deg, #aee5e1 34%, #6faedb 100%);
+}
+
+.rise-back {
+  background: linear-gradient(0deg, #f7de72 45%, #ffa9a8 60%, #4e9392 80%, #193d57 100%);
+}
+
+.night-back {
+  background: linear-gradient(0deg, #0f485c 0%, #1c949f 56%, #183956 100%);
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+}
+
+#svg {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+#sun {
+  height: 100px;
+  width: 100px;
+  background-color: #f4f2d5;
+  border-radius: 50%;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform-origin: 0% 400px;
+  transition: transform 3s ease, background 3s ease;
+  transform: rotate(-70deg);
+}
+
+.holder {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+}
+
+.inner {
+  position: relative;
+  width: 50%;
+  margin: 5vh auto;
+  height: 90vh;
+  text-align: center;
+  color: #fff;
+  text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.6);
+  font-size: 3.0em;
+}
+/*# sourceMappingURL=style.css.map */
